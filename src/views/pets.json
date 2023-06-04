@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Max",
+    "image": "dog1.jpg",
+    "description": "Max is a fluffy and playful dog. He loves belly rubs and enjoys going on long walks in the park. He's the perfect companion for an active family."
+  },
+  {
+    "name": "Poko",
+    "image": "dog2.jpg",
+    "description": "Poko is a small and energetic dog with a big personality. He's always up for an adventure and loves to play fetch. He'll bring endless joy and laughter to your home."
+  },
+  {
+    "name": "Robin",
+    "image": "cat1.jpg",
+    "description": "Robin is a graceful and independent cat. She enjoys lounging in the sun and chasing after feathers. With her soft purrs and gentle nature, she'll be a calming presence in your life."
+  },
+  {
+    "name": "Frank",
+    "image": "dog3.jpg",
+    "description": "Frank is a loyal and protective dog. He's great with kids and will always keep a watchful eye on your family. His playful antics and unwavering devotion will melt your heart."
+  },
+  {
+    "name": "Oscar",
+    "image": "dog4.jpg",
+    "description": "Oscar is a friendly and outgoing dog. He loves meeting new people and making friends wherever he goes. With his wagging tail and infectious enthusiasm, he'll bring happiness to your home."
+  },
+  {
+    "name": "Augustus",
+    "image": "dog5.jpg",
+    "description": "Augustus is a gentle giant with a heart of gold. Despite his size, he's incredibly gentle and loves to cuddle. He'll be your loyal companion and provide endless love and comfort."
+  },
+  {
+    "name": "Lando",
+    "image": "cat2.jpg",
+    "description": "Lando is a mischievous and playful cat. He's always ready to pounce on his favorite toys and explore every nook and cranny. His playful antics will keep you entertained for hours."
+  },
+  {
+    "name": "Percy",
+    "image": "dog6.jpg",
+    "description": "Percy is a smart and obedient dog. He's quick to learn new tricks and loves to show off his skills. With his intelligence and charm, he'll be the star of any training session."
+  }
+]
