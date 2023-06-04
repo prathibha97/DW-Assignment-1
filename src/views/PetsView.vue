@@ -1,25 +1,11 @@
 <template>
   <div class="mb-[2400px] md:mb-0">
-    <!-- Hero section -->
-    <section class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-20">
-      <div class="container mx-auto flex flex-col-reverse md:flex-row items-center">
-        <div class="md:w-1/2">
-          <h1 class="text-5xl font-bold mb-4 text-center md:text-left">
-            Discover Your Perfect Pet Companion
-          </h1>
-          <p class="text-lg mb-8 text-center md:text-left">
-            Find your ideal furry friend to share your life with.
-          </p>
-        </div>
-        <div class="md:w-1/2">
-          <img
-            src="../assets/images/pets.png"
-            alt="hero image"
-            class="w-[350px] h-[350px] mx-auto"
-          />
-        </div>
-      </div>
-    </section>
+    <!-- SubHero section -->
+     <SubHero
+      title="Discover Your Perfect Pet Companion"
+      subtitle=" Find your ideal furry friend to share your life with."
+      image="../../src/assets/images/pets.png"
+    />
 
     <!-- Pets section -->
     <section class="py-10 h-[100vh] bg-gray-100">
@@ -48,6 +34,7 @@
 </template>
 
 <script>
+import SubHero from '../components/SubHero.vue'
 export default {
   name: 'PetsView',
   data() {
@@ -71,6 +58,9 @@ export default {
         })
       )
     }
+  },
+  components:{
+    SubHero
   }
 }
 </script>

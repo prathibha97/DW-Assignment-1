@@ -1,25 +1,11 @@
 <template>
   <div class="bg-gray-100">
-    <!-- Hero section -->
-    <section class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-20">
-      <div class="container mx-auto flex flex-col-reverse md:flex-row items-center">
-        <div class="md:w-1/2">
-          <h1 class="text-5xl font-bold mb-4 text-center md:text-left">
-            Explore Essential Pet Health Tips
-          </h1>
-          <p class="text-lg mb-8 text-center md:text-left">
-            Discover ways to keep your pet happy and healthy.
-          </p>
-        </div>
-        <div class="md:w-1/2">
-          <img
-            src="../assets/images/pets.png"
-            alt="hero image"
-            class="w-[350px] h-[350px] mx-auto"
-          />
-        </div>
-      </div>
-    </section>
+    <!-- SubHero section -->
+    <SubHero
+      title="Explore Essential Pet Health Tips"
+      subtitle="Discover ways to keep your pet happy and healthy."
+      image="../../src/assets/images/pets.png"
+    />
 
     <div class="container mx-auto px-4 py-8 h-[80vh] mb-[520px] md:mb-0">
       <h1 class="text-3xl font-bold mb-4">Pet Health Tips</h1>
@@ -81,3 +67,14 @@
     </div>
   </div>
 </template>
+
+<script>
+import SubHero from '../components/SubHero.vue'
+
+export default {
+  name: 'HealthTipsView',
+  components: {
+    SubHero
+  }
+}
+</script>
