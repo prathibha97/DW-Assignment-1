@@ -2,7 +2,16 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx,vue}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif']
+      },
+      colors: {
+        primary: {
+          500: '#a855f7'
+        }
+      }
+    }
   },
   plugins: []
 }

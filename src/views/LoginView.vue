@@ -1,5 +1,7 @@
 <template>
-  <div class="flex items-center justify-center h-screen">
+  <div
+    class="flex items-center justify-center h-screen bg-gradient-to-r from-purple-300 to-indigo-300"
+  >
     <div class="w-full max-w-sm">
       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Login</h2>
       <form @submit="login" class="form">
@@ -31,7 +33,7 @@
         <p class="text-center p-5 text-red-500" v-if="errMsg">{{ errMsg }}</p>
       </form>
       <p class="text-gray-600 text-center mt-4">
-        Don't have an account? <a href="/register" class="text-purple-500">Register</a>
+        Don't have an account? <a href="/register" class="text-primary-500">Register</a>
       </p>
     </div>
   </div>

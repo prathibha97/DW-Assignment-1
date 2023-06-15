@@ -6,7 +6,7 @@
         <h2 class="text-3xl font-bold text-gray-800 mb-6">About Us</h2>
         <div class="flex flex-col md:flex-row">
           <div class="md:w-1/2">
-            <img src="../assets/images/about1.png" alt="About" class="w-full h-[75%] object-contain rounded-lg shadow-lg bg-blue-300" />
+            <img src="../assets/images/about1.png" alt="About" class="w-full h-[75%] object-contain rounded-lg shadow-lg bg-gradient-to-r from-purple-500 to-indigo-500" />
           </div>
           <div class="md:w-1/2 md:ml-6 mt-6 md:mt-0">
             <h3 class="text-2xl font-bold text-gray-800 mb-4">Our Story</h3>
@@ -30,7 +30,7 @@
             </p>
           </div>
           <div class="md:w-1/2">
-            <img src="../assets/images/about2.png" alt="About" class="w-full h-[75%] object-contain rounded-lg shadow-lg bg-yellow-200" />
+            <img src="../assets/images/about2.png" alt="About" class="w-full h-[75%] object-contain rounded-lg shadow-lg bg-gradient-to-r from-yellow-200 to-orange-300" />
           </div>
         </div>
       </div>
@@ -43,3 +43,5 @@ export default {
   name: 'AboutView',
 }
 </script>
+
+<!-- bg-gradient-to-r from-purple-500 to-indigo-500 -->

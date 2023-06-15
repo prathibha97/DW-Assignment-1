@@ -10,16 +10,18 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@egjs/vue3-flicking": "^4.10.7",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
+    "axios": "^1.4.0",
     "firebase": "^9.22.1",
+    "typeface-montserrat": "^1.1.13",
     "vue": "^3.3.2",
     "vue-carousel": "^0.18.0",
-    "vue-router": "^4.2.0",
-    "vue-scrollto": "^2.20.0"
+    "vue-router": "^4.2.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",

@@ -15,26 +15,26 @@
               <input
                 type="text"
                 placeholder="Your Name"
-                class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-purple-500 focus:border-purple-500"
+                class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-primary-500 focus:border-primary-500"
               />
             </div>
             <div class="mb-4">
               <input
                 type="email"
                 placeholder="Your Email"
-                class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-purple-500 focus:border-purple-500"
+                class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-primary-500 focus:border-primary-500"
               />
             </div>
             <div class="mb-4">
               <textarea
                 placeholder="Your Message"
-                class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-purple-500 focus:border-purple-500"
+                class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-primary-500 focus:border-primary-500"
                 rows="4"
               ></textarea>
             </div>
             <button
               type="submit"
-              class="bg-purple-500 text-white font-semibold px-6 py-3 rounded-md shadow-md hover:bg-purple-600 transition-colors duration-300"
+              class="bg-primary-500 text-white font-semibold px-6 py-3 rounded-md shadow-md hover:bg-purple-600 transition-colors duration-300"
             >
               Send Message
             </button>

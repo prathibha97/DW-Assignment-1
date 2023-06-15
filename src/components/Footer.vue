@@ -19,7 +19,7 @@
         <div class="flex mt-2">
           <a href="#" class="mr-2">
             <svg
-              class="w-6 h-6 text-purple-500"
+              class="w-6 h-6 text-primary-500"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@
           </a>
           <a href="#">
             <svg
-              class="w-6 h-6 text-purple-500"
+              class="w-6 h-6 text-primary-500"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@
 </template>
 
 <script>
-export default{
+export default {
   name: 'FooterComponent'
 }
 </script>

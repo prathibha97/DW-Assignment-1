@@ -5,13 +5,14 @@
     <!-- Features section -->
     <Features />
     <!-- Carousel section -->
-
+    <Carousel />
     <!-- Contact section -->
     <Contact />
   </div>
 </template>
 
 <script>
+import Carousel from '../components/Carousel.vue'
 import Contact from '../components/Contact.vue'
 import Features from '../components/Features.vue'
 import MainHero from '../components/MainHero.vue'
@@ -22,6 +23,7 @@ export default {
     MainHero,
     Features,
     Contact,
+    Carousel
   },
   data() {
     return {

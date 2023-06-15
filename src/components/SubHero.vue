@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-20">
+  <section class="bg-gradient-to-r from-primary-500 to-indigo-500 text-white py-20">
     <div class="container mx-auto flex flex-col-reverse md:flex-row items-center">
       <div class="md:w-1/2">
         <h1 class="text-5xl font-bold mb-4 text-center md:text-left">

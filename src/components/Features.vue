@@ -8,7 +8,7 @@
         <div class="bg-white p-6 rounded-lg shadow-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 text-purple-500 mb-4"
+            class="h-8 w-8 text-primary-500 mb-4"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -26,7 +26,7 @@
         <div class="bg-white p-6 rounded-lg shadow-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 text-purple-500 mb-4"
+            class="h-8 w-8 text-primary-500 mb-4"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -48,7 +48,7 @@
         <div class="bg-white p-6 rounded-lg shadow-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 text-purple-500 mb-4"
+            class="h-8 w-8 text-primary-500 mb-4"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -68,7 +68,7 @@
         <div class="bg-white p-6 rounded-lg shadow-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 text-purple-500 mb-4"
+            class="h-8 w-8 text-primary-500 mb-4"
             viewBox="0 0 20 20"
             fill="currentColor"
           >

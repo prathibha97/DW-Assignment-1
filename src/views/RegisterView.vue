@@ -1,5 +1,7 @@
 <template>
-  <div class="flex items-center justify-center h-screen">
+  <div
+    class="flex items-center justify-center h-screen bg-gradient-to-r from-purple-300 to-indigo-300"
+  >
     <div class="w-full max-w-sm">
       <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Register</h2>
       <form @submit="login" class="form">
@@ -30,14 +32,14 @@
         </button>
       </form>
       <p class="text-gray-600 text-center mt-4">
-        Already have an account? <a href="/login" class="text-purple-500">Login</a>
+        Already have an account? <a href="/login" class="text-primary-500">Login</a>
       </p>
     </div>
   </div>
 </template>
 
 <script>
-import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
+import { createUserWithEmailAndPassword, getAuth } from 'firebase/auth'
 import { useRouter } from 'vue-router'
 
 export default {
@@ -45,9 +47,9 @@ export default {
   data() {
     return {
       isMenuOpen: false,
-        email: '',
-        password: '',
-        router: useRouter()
+      email: '',
+      password: '',
+      router: useRouter()
     }
   },
   methods: {
@@ -55,7 +57,7 @@ export default {
       createUserWithEmailAndPassword(getAuth(), this.email, this.password)
         .then((data) => {
           console.log('Register successful')
-          console.log(data);
+          console.log(data)
           this.router.push('/')
         })
         .catch((error) => {
