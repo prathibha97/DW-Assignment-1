@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="w-full overflow-hidden">
     <Flicking :options="{ align: 'prev', circular: true, adaptive: true }" @move-end="onMoveEnd">
       <div class="panel" key="1">
         <img src="../assets/images/pedigree.webp" alt="" />
@@ -33,16 +33,11 @@ export default {
     onMoveEnd() {
       console.log('onMoveEnd')
     }
-  }
+  },
 }
 </script>
 
 <style scoped>
-.wrapper {
-  width: 100%;
-  overflow: hidden;
-}
-
 .panel {
   display: flex;
   align-items: center;
@@ -53,12 +48,5 @@ export default {
 .panel img {
   max-width: 100%;
   max-height: 500px;
-}
-
-/* Mobile view styles */
-@media (max-width: 640px) {
-  .flicking-viewport {
-    flex-direction: column;
-  }
 }
 </style>
