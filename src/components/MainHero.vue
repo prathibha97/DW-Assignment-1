@@ -1,9 +1,9 @@
 <template>
-  <section class="bg-gradient-to-r from-primary-500 to-indigo-500 text-white py-20 md:h-[100vh]" id="hero-section">
+  <section class="bg-gradient-to-r from-primary-500 to-indigo-500 text-white py-20 md:h-[75vh]" id="hero-section">
     <div class="container mx-auto flex flex-col-reverse md:flex-row items-center">
       <div class="md:w-1/2">
         <h1 class="text-4xl md:text-5xl font-bold mb-4 text-center md:text-left">Welcome to Jack Pet Supplies</h1>
-        <p class="text-lg md:mb-8 text-center md:text-left">Find your perfect pet companion</p>
+        <h3 class="text-2xl md:mb-8 text-center md:text-left">Find your perfect pet companion</h3>
       </div>
       <div class="md:w-1/2">
         <img src="../assets/images/Saly.png" alt="hero image" class="w-[250px] md:w-[350px] h-[250px] md:h-[350px] mx-auto" />

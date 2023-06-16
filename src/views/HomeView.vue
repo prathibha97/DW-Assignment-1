@@ -2,6 +2,8 @@
   <div class="bg-gray-100">
     <!-- Hero section -->
     <MainHero />
+    <!-- Banner -->
+    <Banner />
     <!-- Features section -->
     <Features />
     <!-- Carousel section -->
@@ -16,6 +18,7 @@ import Carousel from '../components/Carousel.vue'
 import Contact from '../components/Contact.vue'
 import Features from '../components/Features.vue'
 import MainHero from '../components/MainHero.vue'
+import Banner from '../components/Banner.vue'
 
 export default {
   name: 'LandingPage',
@@ -23,7 +26,8 @@ export default {
     MainHero,
     Features,
     Contact,
-    Carousel
+    Carousel,
+    Banner
   },
   data() {
     return {
