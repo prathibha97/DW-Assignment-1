@@ -8,7 +8,7 @@
     />
 
     <!-- Products section -->
-    <section class="py-10 bg-gray-100 h-[100vh]">
+    <section class="py-10 bg-gray-100 md:h-[100vh]">
       <div class="container mx-auto">
         <h2 class="text-3xl font-bold text-gray-800 mb-6">Our Products</h2>
 

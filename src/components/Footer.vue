@@ -1,20 +1,20 @@
 <template>
   <footer class="bg-purple-100 text-gray-700 pt-6">
-    <div class="container mx-auto flex justify-between items-center">
-      <div>
+    <div class="container mx-auto flex flex-wrap justify-between items-start">
+      <div class="w-full sm:w-auto sm:flex-grow sm:mr-6 mb-6 sm:mb-0">
         <h3 class="text-lg font-semibold">Contact Us</h3>
         <p class="mt-2">123 Pet Street</p>
         <p>London, United Kingdom</p>
         <p class="mt-2">Phone: (123) 456-7890</p>
         <p>Email: info@jackpetsupplies.com</p>
       </div>
-      <div>
+      <div class="w-full sm:w-auto sm:flex-grow sm:mr-6 mb-6 sm:mb-0">
         <h3 class="text-lg font-semibold">Opening Hours</h3>
         <p class="mt-2">Monday - Friday: 9am - 6pm</p>
         <p>Saturday: 10am - 4pm</p>
         <p>Sunday: Closed</p>
       </div>
-      <div>
+      <div class="w-full sm:w-auto">
         <h3 class="text-lg font-semibold">Follow Us</h3>
         <div class="flex mt-2">
           <a href="#" class="mr-2">
@@ -30,7 +30,7 @@
             </svg>
           </a>
           <a href="#">
-            <svg
+          <svg
               class="w-6 h-6 text-primary-500"
               fill="currentColor"
               viewBox="0 0 24 24"
@@ -46,6 +46,7 @@
     </div>
   </footer>
 </template>
+
 
 <script>
 export default {
