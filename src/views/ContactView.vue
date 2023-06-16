@@ -70,11 +70,3 @@ export default {
   name: 'ContactView',
 }
 </script>
-
-<style>
-@media (min-width: 768px) {
-  .max-w-xs {
-    max-width: none;
-  }
-}
-</style>

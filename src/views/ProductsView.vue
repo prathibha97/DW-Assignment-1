@@ -19,9 +19,12 @@
             <div class="p-4">
               <h3 class="text-xl font-bold text-gray-800">{{ product.name }}</h3>
               <p class="text-gray-600">{{ product.description }}</p>
-              <button class="mt-4 bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">
-                Add to Cart
-              </button>
+              <div class="flex items-center justify-between">
+                <button class="mt-4 bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded">
+                  Add to Cart
+                </button>
+                <p class="font-bold text-lg">Price: ${{ product.price }}</p>
+              </div>
             </div>
           </div>
         </div>

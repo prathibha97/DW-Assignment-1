@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header>
     <!-- Navbar -->
     <nav class="bg-white shadow-lg sticky top-0 w-full">
       <div class="container mx-auto px-4">
@@ -46,7 +46,7 @@
         </li>
       </ul>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>

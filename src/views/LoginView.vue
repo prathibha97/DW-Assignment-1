@@ -40,7 +40,6 @@
 </template>
 
 <script>
-/* eslint-disable no-unused-vars */
 import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from 'firebase/auth'
 import { useRouter } from 'vue-router'
 
@@ -75,7 +74,7 @@ export default {
   methods: {
     login() {
       signInWithEmailAndPassword(this.auth, this.email, this.password)
-        .then((data) => {
+        .then(() => {
           console.log('Logged in')
           this.loggedIn = true
           this.router.push('/')

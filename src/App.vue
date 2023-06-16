@@ -1,22 +1,13 @@
 <template>
-  <header v-if="!isLoginPage && !isRegisterPage">
-    <Navbar />
-  </header>
+  <Navbar />
   <body>
     <RouterView />
   </body>
-  <footer v-if="!isLoginPage && !isRegisterPage">
-    <Footer />
-  </footer>
+  <Footer />
 </template>
 
 <script setup>
-import { RouterView, useRoute } from 'vue-router'
-
+import { RouterView } from 'vue-router'
 import Footer from './components/Footer.vue'
 import Navbar from './components/Navbar.vue'
-
-const route = useRoute()
-const isLoginPage = route.name === 'login'
-const isRegisterPage = route.name === 'register'
 </script>
