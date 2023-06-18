@@ -7,7 +7,7 @@
       image="../../src/assets/images/pets.png"
     />
 
-    <div class="container mx-auto px-4 py-8 h-[80vh] mb-[520px] md:mb-0">
+    <div class="container mx-auto px-4 py-8 h-[100vh] md:h-[80vh] mb-[520px] md:mb-0">
       <h1 class="text-3xl font-bold mb-4">Pet Health Tips</h1>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <div v-for="tip in healthTips" :key="tip.title">

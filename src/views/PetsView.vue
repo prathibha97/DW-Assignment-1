@@ -8,7 +8,7 @@
     />
 
     <!-- Pets section -->
-    <section class="py-10 h-[100vh] bg-gray-100">
+    <section class="py-10 h-[120vh] bg-gray-100">
       <div class="container mx-auto">
         <h2 class="text-3xl font-bold text-gray-800 mb-6 ml-3">Our Pets</h2>
 

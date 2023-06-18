@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gradient-to-r from-primary-500 to-indigo-500 text-white py-20 md:h-[75vh]" id="hero-section">
+  <section class="bg-gradient-to-r from-primary-500 to-indigo-500 text-white py-20 md:h-[95vh]" id="hero-section">
     <div class="container mx-auto flex flex-col-reverse md:flex-row items-center">
       <div class="md:w-1/2">
         <h1 class="text-4xl md:text-5xl font-bold mb-4 text-center md:text-left">Welcome to Jack Pet Supplies</h1>
